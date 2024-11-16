@@ -2,9 +2,9 @@
   "name": "kanbanboard-backend",
   "version": "1.0.0",
   "license": "MIT",
-  "main": "src/index.js",
+  "main": "dist/src/index.js",
   "scripts": {
-    "start": "node src/index.js",
+    "preview": "node dist/src/index.js",
     "build": "npx tsc",
     "dev": "tsx watch -r dotenv/config src/index.ts"
   },
