@@ -1,19 +1,12 @@
 {
-  "name": "supabase-drizzle-express-starter",
+  "name": "kanbanboard-backend",
   "version": "1.0.0",
   "license": "MIT",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
     "build": "npx tsc",
-    "dev": "tsx watch -r dotenv/config src/index.ts",
-    "dev2": "nodemon --exec ts-node --skip-project -r dotenv/config src/index.ts --transpile-only",
-    "introspect": "drizzle-kit introspect:pg",
-    "generate": "drizzle-kit generate:pg",
-    "migrate": "tsx -r dotenv/config src/migrate.ts",
-    "studio": "drizzle-kit studio",
-    "seed": "tsx ./src/utils/seed.ts",
-    "drop": "tsx ./src/utils/drop.ts"
+    "dev": "tsx watch -r dotenv/config src/index.ts"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
